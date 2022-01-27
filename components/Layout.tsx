@@ -11,8 +11,7 @@ const Layout = ({ children }: LayoutProps) => {
   return (
     <Fragment>
       <Head>
-        <title>My portfolio</title>
-        <link rel={'stylesheet'} href={''} />
+          <title>Portfolio in NextJS</title>
       </Head>
       <Navbar />
       <div className={''}>{children}</div>
