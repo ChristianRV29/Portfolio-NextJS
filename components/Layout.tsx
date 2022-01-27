@@ -14,7 +14,7 @@ const Layout = ({ children }: LayoutProps) => {
           <title>Portfolio in NextJS</title>
       </Head>
       <Navbar />
-      <div className={''}>{children}</div>
+      <div className={'container py-4'}>{children}</div>
     </Fragment>
   )
 }
