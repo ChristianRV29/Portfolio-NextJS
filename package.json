@@ -18,5 +18,10 @@
     "eslint": "8.7.0",
     "eslint-config-next": "12.0.9",
     "typescript": "4.5.5"
-  }
+  },
+  "version": "1.0.0",
+  "description": "This is a project with purpose just to learning",
+  "main": "index.js",
+  "author": "ChristianRV29 <kmylorv@gmail.com>",
+  "license": "MIT"
 }
