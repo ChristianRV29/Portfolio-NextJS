@@ -6,8 +6,8 @@ import Layout from './../components/Layout'
 const Custom404: NextPage = () => {
   return (
     <Layout>
-      <div className={'d-flex align-center'}>
-        <div className="row">
+      <div className={'text-center'}>
+        <div className="row py-2">
           <div className="col-md-12">
             <div className="error-template">
               <h1>Oops!</h1>
