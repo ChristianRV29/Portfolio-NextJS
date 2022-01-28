@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react'
+import Image from 'next/image';
 
 interface HeaderProps {
   uri: string
@@ -13,7 +14,7 @@ const HeaderCard: React.FC<HeaderProps> = props => {
             <div className={'card card-body bg-secondary text-light'}>
              <div className={"row"}>
                 <div className={"col-md-4"}>
-                    <img src={uri} alt={'image-profile'} className={'img-fluid'} />
+                    <Image src={uri} alt={'image-profile'} className={'img-fluid'} width={350} height={500}/>
                 </div>
                 <div className={"col-md-8"}>
                     <h1>Christian Riaño</h1>
