@@ -1,7 +1,7 @@
 import type { NextPage } from 'next'
-import HeaderCard from '../components/Header'
 
-import Layout from './../components/Layout'
+import HeaderCard from '~components/Header'
+import Layout from '~components/Layout'
 
 
 const Home: NextPage = () => {
