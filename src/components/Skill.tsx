@@ -1,14 +1,11 @@
 import React from 'react'
 
-interface SkillProps {
-  language: string
-  progress: number
-}
+import { SkillProps } from 'src/@types/skill'
 
 const Skill: React.FC<SkillProps> = props => {
   const { language, progress } = props
   return (
-    <div>
+    <div className={'py-2'}>
       <h5>{language}</h5>
       <div className={'progress'}>
         <div

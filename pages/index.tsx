@@ -1,8 +1,11 @@
 import type { NextPage } from 'next'
 
-import HeaderCard from '~components/Header'
-import Layout from '~components/Layout'
-import Skill from '~components/Skill'
+import HeaderCard from '~src/components/Header'
+import Layout from '~src/components/Layout'
+
+import { SkillProps } from '~src/@types/skill'
+import { skills } from '~src/constants/skills'
+import Skill from '~src/components/Skill'
 
 const Home: NextPage = () => {
   return (
@@ -14,7 +17,9 @@ const Home: NextPage = () => {
           <div className={'card bg-muted'}>
             <div className={'card-body'}>
               <h3 className={'text-center'}>Skills</h3>
-              <Skill language={'Python'} progress={20} />
+              {(skills || []).map((skill: SkillProps, index: number) => (
+                <Skill {...skill} key={index} />
+              ))}
             </div>
           </div>
         </div>
