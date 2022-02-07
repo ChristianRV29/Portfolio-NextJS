@@ -13,14 +13,14 @@ const HeaderCard: React.FC<HeaderProps> = props => {
         <div className={'col-md-12'}>
             <div className={'card card-body bg-secondary text-light'}>
              <div className={"row"}>
-                <div className={"col-md-4"}>
-                    <Image src={uri} alt={'image-profile'} className={'img-fluid'} width={350} height={500}/>
+                <div className={"col-md-3"}>
+                    <Image src={uri} alt={'image-profile'} className={'img-fluid'} width={300} height={300}/>
                 </div>
-                <div className={"col-md-8"}>
+                <div className={"col-md-9"}>
                     <h1>Christian Riaño</h1>
                     <h3>Fullstack developer</h3>
                     <p className={'text-justify py-1'}>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Id inventore voluptatibus voluptates ea, libero laborum consequuntur! Harum voluptate nihil minima modi non itaque expedita, nesciunt nobis perferendis vel quaerat tempora natus, rerum eveniet recusandae nam, optio quo qui dolorem dolore consequatur! Maxime odit fuga molestias labore. Culpa fugit impedit, architecto praesentium labore magni quia, illum dolorum fugiat, dolorem consectetur! Magnam amet odio nesciunt, dolor consequatur possimus aspernatur commodi, aliquam qui neque at distinctio corrupti eligendi. Magnam odit sed in facere nihil minima neque dolorum fuga odio amet fugit optio aut, repellendus commodi necessitatibus? Quis at, libero vero a nulla laboriosam tempora tenetur debitis cupiditate? Adipisci earum molestiae harum. Sapiente, eos! Voluptate, dolor mollitia! Ea magnam officia a aliquid error soluta sequi quo voluptatem inventore voluptates, provident, impedit odit excepturi ipsa eaque sint accusantium! Fugit commodi iusto numquam quae aperiam nemo, a repudiandae ratione voluptatibus? Culpa iste et asperiores amet repellendus repellat. Sunt vel, eum cumque nostrum incidunt ut minus officia? Doloremque, tempora doloribus enim autem libero minus, labore in itaque ab ea placeat illo, harum voluptas dignissimos esse. Ea dicta alias aut nisi temporibus nulla quisquam enim magni est voluptates excepturi obcaecati, vero pariatur facilis tempore, delectus voluptatem illum a!
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima necessitatibus quidem nostrum ipsa ut praesentium quasi quod nemo. Corporis architecto inventore provident dignissimos neque, placeat, expedita sed quam debitis, aspernatur temporibus magni voluptatem voluptatum. Placeat architecto hic odio, facilis animi a quis obcaecati vero esse voluptatibus culpa, odit maiores quam commodi possimus dolores, neque ratione? Molestiae, nulla quidem sapiente ipsum laborum, eligendi itaque cumque neque odio facilis, enim doloremque. Temporibus iste nisi commodi. Nam in neque animi ea quis quos, corrupti dicta sapiente mollitia recusandae quia exercitationem iusto, inventore nisi asperiores illum est placeat doloribus, facere fugiat voluptas quisquam aut. Qui, in eligendi fugit cupiditate vero dolore impedit. Numquam, reprehenderit nostrum incidunt recusandae voluptatibus facere dicta sequi corporis deleniti sint!
                     </p>
                 </div>
              </div>
