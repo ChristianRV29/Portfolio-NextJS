@@ -29,6 +29,10 @@ const Body = () => {
           </ul>
         </article>
       </div>
+      {/** Projects section  */}
+      <div>
+        
+      </div>
     </div>
   )
 }
