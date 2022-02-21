@@ -30,8 +30,26 @@ const Body = () => {
         </article>
       </div>
       {/** Projects section  */}
-      <div>
-        
+      <div className={'row py-2'}>
+        <div className={"col-md-12"}>
+          <div className={"card card-body bg-primary"}>
+            <div className={"row"}>
+              <div className={'col-md-12'}>
+                  <h1 className={'text-center text-light'}>Portfolio</h1>
+              </div>
+              <div className={'col-md-4'}>
+                <div className={'card bg-secondary'}>
+                  <img src={'https://media.istockphoto.com/photos/project-management-with-icons-about-planning-tasks-and-milestones-on-picture-id1135541613?k=20&m=1135541613&s=612x612&w=0&h=rHctItxe3Vi5AGnLfm-Qa_PARqNXaxhlc3TbFYFe3nI='} alt="project-image.png" />
+                  <div className="card-body">
+                    <h3>Title</h3>
+                    <p>Description</p>
+                    <a href={'#'}>Know more</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   )
