@@ -61,9 +61,6 @@ const Body = () => {
 
                 <div className="col-md-12 mt-4">
                   <div className="text-center">
-                    {/* <Link href="/portfolio">
-                    <a className="btn btn-outline-light">More Projects</a>
-                  </Link> */}
                   </div>
                 </div>
               </div>
