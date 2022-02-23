@@ -4,6 +4,7 @@ import { SkillProps } from '~src/@types/skill'
 import { experiences } from '~src/constants/experience'
 import { projects } from '~src/constants/projects'
 import { skills } from '~src/constants/skills'
+import Card from './Card'
 import Experience from './Experience'
 import Skill from './Skill'
 
@@ -40,29 +41,9 @@ const Body = () => {
                 <div className="col-md-12 my-2">
                   <h1 className="text-center">Portfolio</h1>
                 </div>
-                {projects.map(({ name, description, image }, index) => (
-                  <div className="col-md-4 p-2" key={index}>
-                    <div className="card h-100 border-white bg-secondary">
-                      <div className="overflow">
-                        <img
-                          src={`${image}`}
-                          alt=""
-                          className="card-img-top"
-                        />
-                      </div>
-                      <div className="card-body">
-                        <h3>{name}</h3>
-                        <p>{description}</p>
-                        <a href="#!">Know More</a>
-                      </div>
-                    </div>
-                  </div>
+                {projects.map((project, index: number) => (
+                  <Card {...project} key={index}/>
                 ))}
-
-                <div className="col-md-12 mt-4">
-                  <div className="text-center">
-                  </div>
-                </div>
               </div>
             </div>
           </div>
