@@ -1,9 +1,11 @@
 import React from 'react';
 
+import Image from 'next/image';
+
 interface CardProps {
   name: string
   description: string
-  image?: string
+  image: string
 }
 
 const Card: React.FC<CardProps> = props => {
@@ -12,7 +14,7 @@ const Card: React.FC<CardProps> = props => {
     <div className="col-md-4 p-2">
       <div className="card h-100 border-white bg-secondary">
         <div className="overflow">
-          <img src={`${image}`} alt="" className="card-img-top" />
+        <Image src={image} alt={'image-profile'} className={'img-fluid'} width={411} height={300}/>
         </div>
         <div className="card-body">
           <h3>{name}</h3>
