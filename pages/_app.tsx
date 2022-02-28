@@ -13,6 +13,7 @@ export default function MyApp({ Component, pageProps }: AppProps): JSX.Element {
           name={'viewport'}
           content={'width=device-width, initial-sace=1.0'}
         />
+        <link href={'https://cdnjs.cloudflare.com/ajax/libs/nprogress/0.2.0/nprogress.css'} rel={'stylesheet'}></link>
       </Head>
       <Component {...pageProps} />
     </Fragment>
