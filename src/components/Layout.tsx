@@ -2,6 +2,7 @@ import React, { Fragment } from 'react'
 import Head from 'next/head'
 
 import Navbar from './Navbar'
+import Footer from './Footer'
 
 interface LayoutProps {
   children: JSX.Element | JSX.Element[]
@@ -15,6 +16,7 @@ const Layout = ({ children }: LayoutProps) => {
       </Head>
       <Navbar />
       <div className={'container py-4'}>{children}</div>
+      <Footer />
     </Fragment>
   )
 }
