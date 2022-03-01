@@ -14,7 +14,7 @@ const HeaderCard: React.FC<HeaderProps> = props => {
             <div className={'card card-body bg-secondary text-light'}>
              <div className={"row"}>
                 <div className={"col-md-3"}>
-                    <Image src={uri} alt={'image-profile'} className={'img-fluid'} width={300} height={300}/>
+                    <Image src={uri} alt={'image-profile'} className={'img-fluid'} width={300} height={400}/>
                 </div>
                 <div className={"col-md-9"}>
                     <h1>Christian Riaño</h1>
