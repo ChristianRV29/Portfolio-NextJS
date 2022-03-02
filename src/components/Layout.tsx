@@ -9,9 +9,10 @@ import Footer from './Footer'
 
 interface LayoutProps {
   children: JSX.Element | JSX.Element[]
+  footer?: boolean;
 }
 
-const Layout = ({ children }: LayoutProps) => {
+const Layout = ({ children, footer = true }: LayoutProps) => {
 
   const router = useRouter();
 
@@ -34,7 +35,7 @@ const Layout = ({ children }: LayoutProps) => {
       </Head>
       <Navbar />
       <div className={'container py-4'}>{children}</div>
-      <Footer />
+      {footer && (<Footer />)}
     </Fragment>
   )
 }
