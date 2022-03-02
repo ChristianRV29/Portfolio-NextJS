@@ -11,7 +11,7 @@ interface GithubPageProps {
 const Github: NextPage<GithubPageProps> = ({ user }) => {
   console.log(user?.avatar_url)
   return (
-    <Layout>
+    <Layout footer={false}>
       <div className={'row'}>
         <div className={'col-md-4 offset-md-4'}>
           <div className={'card card-body text-center'}>
@@ -24,7 +24,8 @@ const Github: NextPage<GithubPageProps> = ({ user }) => {
               alt={"Github profile's image"}
             />
             <p>{user!.bio}</p>
-            <a href={user!.html_url} className={'btn btn-outline-secondary'} > Go to github profile</a>
+            <b>{user!.company}</b>
+            <a href={user!.html_url} className={'btn btn-outline-secondary my-3'} > Go to github profile</a>
           </div>
         </div>
       </div>
