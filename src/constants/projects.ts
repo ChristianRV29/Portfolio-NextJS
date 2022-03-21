@@ -35,4 +35,10 @@ export const projects = [
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum auctor rutrum lectus. Quisque cursus tempus commodo.',
     image: '/project3.jpeg',
   },
+  {
+    name: 'Awesome project 6',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum auctor rutrum lectus. Quisque cursus tempus commodo.',
+    image: '/project3.jpeg',
+  },
 ]
